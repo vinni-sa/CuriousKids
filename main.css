@@ -101,28 +101,38 @@ body {
     padding: 0;
 }
 
-.header .container .nav .button {
-    width: 138px;
-    height: 36px;
+.button {
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 12px;
     border-radius: 20px;
     border: 1px solid black;
     padding: 0;
     box-shadow: 1px 2px;
+    height: 36px;
 }
 
-.header .container .nav .button:active {
+.button:active {
     box-shadow: inset 2px 1px;
 }
 
-.header .container .nav .button_white {
+.button_white {
     background-color: #FFF;
+}
+
+.button_yellow {
+    background-color: #FFE500;
+}
+
+.header .container .nav .button {
+    width: 138px;
+    height: 36px;
+}
+
+.header .container .nav .button_white {
     margin: 0 20px 0 0;
 }
 
 .header .container .nav .button_yellow {
-    background-color: #FFE500;
     margin: 0 70px 0 0;
 }
 
@@ -146,9 +156,6 @@ body {
     justify-content: center; /*по горизонтали*/
     /* align-items: start; по вертикали */
     align-items: center;
-
-    /* border: 1px solid black; */
-
     border: none;
     background: none;
     
