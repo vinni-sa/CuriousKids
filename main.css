@@ -138,6 +138,11 @@ body {
 
 /* ------------------------ */
 
+.about {
+    margin: 0;
+    padding: 0;
+}
+
 .about .container {
     background: #E6FFE1;
     height: 90%;
@@ -202,16 +207,10 @@ body {
     font-size: 13px;
 }
 
-/* .about .main_line {
-    background: #A3CE9B;
-    width: 100%;
-    height: 1px;
-    margin: 0;
-} */
-
 .about .main_container .main_every_child .button_yellow {
     width: 138px;
     margin-top: 18px;
+    margin-bottom: 0;
 }
 
 .main_every_child {
@@ -221,7 +220,7 @@ body {
 
     background-color: #E6FFE1;
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 10px 0 30px 0;
 }
 
 .about .main_every_child h1 {
@@ -259,7 +258,53 @@ body {
 
 /* ---------------------------------- */
 
-.year_container
+.about .year_container {
+    background-color: #E0F7DB;
+    margin: 0;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.about .year_container .elem{
+    margin: 50px 20px;
+    padding: 0;
+}
+
+.about .year_container .elem h3{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 40px;
+    margin: 0 0;
+    padding: 0;
+}
+
+.about .year_container .elem p{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 15px;
+    color: #818181;
+    margin: 0;
+    padding: 0;
+}
+
+.about .year_container .header_line {
+    background: #C6C6C6;
+    width: 1px;
+    height: 25px;
+    margin: 0 40px;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+/* 
+body::-webkit-scrollbar-thumb {
+    background-color: #A3CE9B;
+    border: 1px solid #818181;
+} */
+
+
 
 
 
